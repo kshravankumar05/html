@@ -1,0 +1,37 @@
+<html>
+ <body bgcolor="yellow">
+  <h1> Registration Details</h1>
+  <form action="abc.jsp" method="post">
+<table border="8">
+	<tr><th align="right"><label for="nm">Name : </label></th><td><input type="text" name="nm" tabindex="3" id="nm"></td></tr>
+
+	<tr><th align="right">Father's Name : </th><td><input type="text" name="fnm" tabindex="4"></td></tr>
+
+	<tr><th align="right">DOB : </th><td><input type="text" name="dob" tabindex="5"></td></tr>
+	
+	<tr><th align="right">Email ID : </th><td><input type="text" name="eid" tabindex="6"></td></tr>
+	
+	<tr><th align="right">Address : </th><td><textarea rows="10" cols="25"></textarea></td></tr>
+	
+	<tr><th align="right">Gender : </th><td><input type="radio" name="gndr">Male<br>
+					<input type="radio" name="gndr">Female</td></tr>
+	
+	<tr><th align="right">Known Langauge's :</th><td>
+					<input type="checkbox" name="Eng">English<br>
+					<input type="checkbox" name="Hin">Hindi<br>
+					<input type="checkbox" name="Tel">Telugu</td></tr>
+  
+  <tr><th align="right">Dist : </th><td><select name="dst" tabindex="2">
+				<option>--select Dist--</option>
+				<option>Hyderabad</option>
+				<option>Rangareddy</option>
+				<option>Nalgonda</option>
+				<option>Warangal</option>
+			</select></td></tr>
+
+<tr><th align="right">Nation : 	</th><td><input type="text" name="ntn" value="INDIA" readonly tabindex="1"></td></tr>
+
+	<tr><td><input type="submit" value="Send"><input type="submit" value="Reset"></td></tr>
+  </form>
+ </body>
+</html>

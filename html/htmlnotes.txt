@@ -1,0 +1,174 @@
+html 
+it is used to create static web pages.
+it is tags based language not  a programming langauge
+
+types
+
+1. paired
+	<html>---------------</html>
+	<body> -------------</body>...........
+	start tag	inner html	end tag
+
+2. unpaired
+	<img>
+	<br>		start tag only
+	<hr>
+file save with .html only
+
+basic tags
+---------------
+<html>
+ <head>
+ <title>BASIC TAGS</title>
+ </head>
+ <body bgcolor="Yellow">
+  <h1>this heading 1</h1>
+  <h2>this heading 2</h2>
+  <h3>this heading 3</h3>
+  <h4>this heading 4</h4>
+  <h5>this heading 5</h5>
+  <h6>this heading 6</h6>
+<hr>
+<h2><b>this is bold tag</b><br>
+<strong>this is also bold tag</strong><br>
+<i>this is italis tag</i><br>
+<em>italic 2 tag</em><br>
+<u>welcome to itpoint</u><br>
+thank<ins> you</ins><br>
+<strike> good night</strike><br>
+hello <Del>Ms</del>Naveen<br>
+(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab<br>
+
+H<sub>2</sub>SO<sub>4</sub><br>
+ </h2>
+ </body>
+</html>
+
+image and hyperlink(a)
+--------------------------------
+<html>
+<body>
+  <img src="C:\Users\Public\Pictures\Sample Pictures\Penguins.jpg" alt="invalid pic" title="profile pic" height="200" width="150"><br><br>
+
+  <a href="www.google.com" target="_blank">Go To Google</a><br>
+  <a href="basic.html" target="_blank">Go To Basic Tags</a><br>
+ <a href="http//:www.Facebook.com" target="_blank">
+ <img src="C:\Users\Public\Pictures\Sample Pictures\Penguins.jpg" alt="invalid pic" title="profile pic" height="200" width="150"></a><br>
+  
+ </body>
+</html>
+
+list tags
+-----------
+<html>
+<body>
+ <ol type="1">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ol>
+<ol type="a">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ol>
+<ol type="A">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ol>
+<ol type="i">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ol>
+<ol type="I">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ol>
+<ol type="1" start="4">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ol>
+<ul type="desc">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ul>
+<ul type="circle">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ul>
+<ul type="square">
+	<li>Home</li>
+	<li>Services</li>
+	<li>About Us</li>
+</ul>
+<dl>
+	<dt>HTML</dt>
+		<dd> it is hyper text markup labguage</dd>
+	<dt>CSS</dt>
+		<dd>it is style sheet for web pages</dd>
+</dl>
+ </body>
+</html>
+
+table example
+============
+<html>
+ <body>
+ <table border="3">
+ <caption>Project Details</caption>
+ <tr><td colspan="2">Imformation</td></tr>
+ <tr><td rowspan="3">Java</td><td>Mini</td></tr>
+ <tr><td>Maj</td></tr>
+ <tr><td>And</td></tr>
+ <tr><td rowspan="3">.Net</td><td>Mini</td></tr>
+ <tr><td>Maj</td></tr>
+ <tr><td>Web</td></tr>
+ </table>
+ </body>
+</html>
+
+form example
+----------------------
+<html>
+ <body bgcolor="yellow">
+  <h1> Registration Details</h1>
+  <form action="abc.jsp" method="post">
+<table border="8">
+	<tr><th align="right"><label for="nm">Name : </label></th><td><input type="text" name="nm" tabindex="3" id="nm"></td></tr>
+
+	<tr><th align="right">Father's Name : </th><td><input type="text" name="fnm" tabindex="4"></td></tr>
+
+	<tr><th align="right">DOB : </th><td><input type="text" name="dob" tabindex="5"></td></tr>
+	
+	<tr><th align="right">Email ID : </th><td><input type="text" name="eid" tabindex="6"></td></tr>
+	
+	<tr><th align="right">Address : </th><td><textarea rows="10" cols="25"></textarea></td></tr>
+	
+	<tr><th align="right">Gender : </th><td><input type="radio" name="gndr">Male<br>
+					<input type="radio" name="gndr">Female</td></tr>
+	
+	<tr><th align="right">Known Langauge's :</th><td>
+					<input type="checkbox" name="Eng">English<br>
+					<input type="checkbox" name="Hin">Hindi<br>
+					<input type="checkbox" name="Tel">Telugu</td></tr>
+  
+  <tr><th align="right">Dist : </th><td><select name="dst" tabindex="2">
+				<option>--select Dist--</option>
+				<option>Hyderabad</option>
+				<option>Rangareddy</option>
+				<option>Nalgonda</option>
+				<option>Warangal</option>
+			</select></td></tr>
+
+<tr><th align="right">Nation : 	</th><td><input type="text" name="ntn" value="INDIA" readonly tabindex="1"></td></tr>
+
+	<tr><td><input type="submit" value="Send"><input type="submit" value="Reset"></td></tr>
+  </form>
+ </body>
+</html>
